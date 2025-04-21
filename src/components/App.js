@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./home/HomePage";
+import Header from "./common/Header";
+import PageNotFound from "./PageNotFound";
 
 export default function App() {
     return (
@@ -8,8 +10,6 @@ export default function App() {
             <Header />
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/courses" element={<CoursesPage />} />
-                <Route path="/about" element={<AboutPage />} />
                 <Route element={<PageNotFound />} />
             </Routes>
         </div>
