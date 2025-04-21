@@ -5,7 +5,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://JustinKSU.github.io/jutoma.com",
+  "homepage": "http://JustinKSU.github.io/jutoma.com",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "@babel/core": "^7.24.8",
