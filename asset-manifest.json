@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jutoma.com/static/css/main.e1866a8c.css",
+    "main.js": "/jutoma.com/static/js/main.ccf67f94.js",
+    "index.html": "/jutoma.com/index.html",
+    "main.e1866a8c.css.map": "/jutoma.com/static/css/main.e1866a8c.css.map",
+    "main.ccf67f94.js.map": "/jutoma.com/static/js/main.ccf67f94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1866a8c.css",
+    "static/js/main.ccf67f94.js"
+  ]
+}
