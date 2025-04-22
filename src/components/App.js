@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import HomePage from "./home/HomePage";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
@@ -7,10 +7,10 @@ import PageNotFound from "./PageNotFound";
 export default function App() {
     return (
         <div className="container-fluid">
-            <Header />
+            <Header/>
             <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route element={<PageNotFound />} />
+                <Route path="/jutoma.com" element={<HomePage/>}/>
+                <Route element={<PageNotFound/>}/>
             </Routes>
         </div>
     );

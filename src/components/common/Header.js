@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <nav>
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/jutoma.com">Home</NavLink>
     </nav>
   );
 };
