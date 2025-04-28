@@ -1,12 +1,17 @@
+body {
+    background-color: black;
+    color: white; /* Makes text visible on black background */
+}
+
 #app {
-  max-width: 850px;
-  margin: 0 auto;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 nav {
-  padding: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 a.active {
-  color: #f15b2a;
+    color: #f15b2a;
 }

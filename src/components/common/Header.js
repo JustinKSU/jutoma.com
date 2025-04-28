@@ -5,7 +5,7 @@ import logo from "./logo.png";
 const Header = () => {
     return (
         <nav>
-            <NavLink to="/jutoma.com"><img src={logo} alt='logo'/></NavLink>
+            <NavLink to="/jutoma.com"><img src={logo} width='64px' height='64px' alt='logo'/></NavLink>
         </nav>
     );
 };
