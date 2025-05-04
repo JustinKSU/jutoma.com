@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jutoma.com/static/css/main.ebe86642.css",
-    "main.js": "/jutoma.com/static/js/main.c28106ff.js",
+    "main.js": "/jutoma.com/static/js/main.7b2fc61b.js",
     "static/media/logo.png": "/jutoma.com/static/media/logo.4526297c668fa8e07428.png",
     "index.html": "/jutoma.com/index.html",
     "main.ebe86642.css.map": "/jutoma.com/static/css/main.ebe86642.css.map",
-    "main.c28106ff.js.map": "/jutoma.com/static/js/main.c28106ff.js.map"
+    "main.7b2fc61b.js.map": "/jutoma.com/static/js/main.7b2fc61b.js.map"
   },
   "entrypoints": [
     "static/css/main.ebe86642.css",
-    "static/js/main.c28106ff.js"
+    "static/js/main.7b2fc61b.js"
   ]
 }
