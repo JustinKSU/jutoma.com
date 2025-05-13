@@ -9,7 +9,7 @@ export default function App() {
         <div className="container-fluid">
             <Header/>
             <Routes>
-                <Route path="/jutoma.com" element={<HomePage/>}/>
+                <Route path="/" element={<HomePage/>}/>
                 <Route element={<PageNotFound/>}/>
             </Routes>
         </div>
