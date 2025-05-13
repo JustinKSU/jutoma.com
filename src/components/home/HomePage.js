@@ -3,7 +3,8 @@ import React from "react";
 const HomePage = () => (
     <div className="p-5 mb-4 bg-dark rounded-3">
         <h1>Jutoma LLC</h1>
-        <span>Justin Rosenberg&apos;s</span>
+        <span>Justin Rosenberg is a software architect with over 25 years of professional experience.  His focus is on Java, JavaScript, AI, and AWS.</span>
+        <br/>
         <ol>
             <li><a href="https://www.linkedin.com/in/justinkc/">LinkedIn</a></li>
             <li><a
