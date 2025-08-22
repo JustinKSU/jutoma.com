@@ -12,7 +12,6 @@ const HomePage = () => (
             <li><a href="https://github.com/JustinKSU">GitHub</a></li>
             <li><a href="https://managescripts.com">Example Project</a></li>
             <li><a href="mailto:jutoma@gmail.com">jutoma@gmail.com</a></li>
-            <li><a href="tel:+19135431498">(913) 543-1498</a></li>
         </ol>
     </div>
 );
