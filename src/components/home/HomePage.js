@@ -11,7 +11,6 @@ const HomePage = () => (
             <li><a
                 href="https://docs.google.com/document/d/1cyVSwXj8iqqpnR9oanGmfAKlSwAwjccpQ1pYV65-5pM/edit?usp=sharing">Resume</a></li>
             <li><a href="https://github.com/JustinKSU">GitHub</a></li>
-            <li><a href="https://managescripts.com">Example Project</a></li>
             <li><a href="mailto:jutoma@gmail.com">jutoma@gmail.com</a></li>
         </ol>
     </div>
