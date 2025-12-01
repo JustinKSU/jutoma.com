@@ -24,7 +24,7 @@
     "react-router-dom": "7.9.6"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=25"
   },
   "prettier": {
     "arrowParens": "avoid",
