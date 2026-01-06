@@ -1,9 +1,9 @@
 body {
-    background-color: black;
-    color: white; /* Makes text visible on black background */
+    background-color: black !important;
+    color: white !important;
 }
 
-#app {
+#home {
     max-width: 850px;
     margin: 0 auto;
 }

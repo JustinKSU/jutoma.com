@@ -1,19 +1,19 @@
 {
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "homepage": "https://jutoma.com",
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.5",
     "@babel/preset-react": "^7.28.5",
-    "eslint": "^9.39.2",
+    "@vitejs/plugin-react": "^5.1.2",
+    "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react": "^7.37.5",
     "espree": "^11.0.0",
-    "react-scripts": "^5.0.1",
+    "vite": "^7.3.0",
     "webpack": "^5.104.1"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "react-router-dom": "7.11.0"
   },
   "engines": {
-    "node": ">=25"
+    "node": ">=18 <=22"
   },
   "prettier": {
     "arrowParens": "avoid",
@@ -37,7 +37,7 @@
       "plugin:import/errors",
       "plugin:import/warnings"
     ],
-    "parser": "babel-eslint",
+    "parser": "babel-eslint-parser",
     "parserOptions": {
       "ecmaVersion": 2018,
       "sourceType": "module",

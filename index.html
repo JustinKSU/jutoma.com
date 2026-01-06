@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Jutoma LLC</title>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <meta name="description" content="Jutoma LLC by Justin Rosenberg">
     <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href="https://jutoma.com">
-    <script src="/bundle.js"></script>
     <script type="application/ld+json">
         {
             "@context": "https://jutoma.com",
@@ -21,6 +22,7 @@
 </head>
 
 <body>
-<div id="app"></div>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
